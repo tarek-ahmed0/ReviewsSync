@@ -19,8 +19,8 @@ if user_review:
     review_vector = review_doc.vector.reshape(1, -1)  
     predicted_class = clf_model.predict(review_vector)[0]  
     st.divider()
-    pos_image  = Image.open(r"Signs\Positive Sign.png")
-    neg_image  = Image.open(r"Signs\Negative Sign.png")
+    pos_image  = Image.open(r"Positive Sign.png")
+    neg_image  = Image.open(r"Negative Sign.png")
 
     if predicted_class == 'Satisfied Customer':
             st.image(pos_image, caption = 'Satisfied Customer')
