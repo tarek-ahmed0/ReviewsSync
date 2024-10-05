@@ -1,4 +1,5 @@
-streamlit
-scikit-learn
-Pillow
-spacy==3.6.0
+streamlit==1.22.0
+pillow==9.2.0
+spacy==3.5.0
+scikit-learn==1.2.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.5.0/en_core_web_md-3.5.0.tar.gz
