@@ -1,5 +1,6 @@
-streamlit==1.22.0
-pillow==9.2.0
-spacy==3.5.0
-scikit-learn==1.2.0
-en_core_web_md
+streamlit==1.25.0  # or the latest version compatible
+moviepy==1.0.3  # Ensure it's compatible with your environment
+SpeechRecognition==3.9.0
+pydub==0.25.1  # For handling audio files if needed
+ffmpeg==1.4  # Moviepy depends on this for video/audio processing
+python-dotenv==1.0.0  # If environment variables are used
