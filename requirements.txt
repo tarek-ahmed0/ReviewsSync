@@ -1,6 +1,4 @@
-streamlit==1.25.0  # or the latest version compatible
-moviepy==1.0.3  # Ensure it's compatible with your environment
+streamlit==1.25.0
+moviepy==1.0.3
 SpeechRecognition==3.9.0
-pydub==0.25.1  # For handling audio files if needed
-ffmpeg==1.4  # Moviepy depends on this for video/audio processing
-python-dotenv==1.0.0  # If environment variables are used
+pydub==0.25.1
