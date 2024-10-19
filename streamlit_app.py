@@ -54,4 +54,3 @@ if uploaded_video is not None:
             st.text_area("Extracted Text", extracted_text, height=300)  # Display extracted text in a text area
         else:
             st.error("Please extract audio first.")
-
